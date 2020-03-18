@@ -1,0 +1,49 @@
+section, div, input, label {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0 10px 20px;
+    padding: 15px;
+    background: rgb(172, 172, 120)
+}
+
+label {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+
+    margin: 20px;
+    padding: 20px;
+
+    cursor: pointer;
+
+    background: white;
+
+    text-align: center;
+
+}
+
+input:checked + label {
+    background: yellow;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#input-target {
+    height: 200px;
+    width: 90%;
+    background: rgb(71, 145, 29);
+    padding: 20px;
+    border: 3px dotted white;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+}

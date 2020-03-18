@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.5.6/Rx.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.1/bowser.js"></script>
+    </head>
+
+    <body>
+        <h1>Input device tester</h1>
+        <section id="device-select">
+            <h2>Choose input device type</h2>
+            <form id="device-form" action="">
+                <input type="radio" name="input-type" id="pointer-device" value="pointer">
+                <label for="pointer-device"> Pointer (mouse) </label>
+                <input type="radio" name="input-type" id="touch-device" value="touch">
+                <label for="touch-device"> Thouchscreen </label>
+            </form>
+        </section>
+
+        <section id="target">
+            <h2>Do what it want...</h2>
+            <div id="input-target"></div>
+        </section>
+
+
+        <section>
+            <h2>Copy and send me raport!</h2>
+            <textarea name="" id="raport-text" rows="30" readonly></textarea>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
